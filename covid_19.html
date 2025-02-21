@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Data Analist projects</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="is-preload">
+
+	<!-- Page Wrapper -->
+	<div id="page-wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<h1><a href="index.html">Data Analist projects</a></h1>
+			<nav id="nav">
+				<ul>
+					<li class="special">
+						<a href="#menu" class="menuToggle"><span>Menu</span></a>
+						<div id="menu">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<!-- <li><a href="generic.html">Generic</a></li>
+								<li><a href="elements.html">Elements</a></li>
+								<li><a href="#">Sign Up</a></li>
+								<li><a href="#">Log In</a></li> -->
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- Main -->
+		<article id="main">
+			<header>
+				<h2>covid-19 Data exploration project</h2>
+				<p>Used sql to explore data about covid-19 </p>
+			</header>
+			<section class="wrapper style5">
+				<div class="inner">
+
+					<h2>📌 Project Overview</h2>
+					<p>This project analyzes COVID-19 data using SQL, helping us understand infection trends, death
+						rates, and vaccination progress across the world. The data comes from two tables:</p>
+
+					<ul>
+						<li> <b>CovidDeaths –</b> Contains information on cases, deaths, and population for each
+							country.</li>
+						<li><b>CovidVaccinations –</b> Stores data on vaccination numbers.</li>
+					</ul>
+					
+					<hr />
+
+					<h3>🔎 Key Insights from the Data</h3>
+					<h4>Understanding the Dataset</h4>
+					<p>We begin by filtering out unnecessary data and focusing on essential columns like:
+
+					<ol>
+						<li>Country & Continent</li>
+						<li> Date</li>
+						<li> Population</li>
+						<li> Total Cases & New Cases</li>
+						<li>Total Deaths</li>
+					</ol>
+
+					This helps us compare COVID-19 trends across different regions.</p>
+
+					<h4>Death Percentage (Likelihood of Dying from COVID-19)</h4>
+					<p>We calculate the percentage of people who died after getting infected: <br>
+
+					<div class="formating"><b>Death Percentage=(Total_Deaths/Total_Cases)*100</b></div> <br>
+					This helps us identify which countries had the highest mortality rates.</p>
+					<h4>Infection Rate (Likelihood of Getting Infected)</h4>
+					<p>We determine what percentage of a country’s population got infected: <br>
+
+					<div class="formating"><b>Infection Rate=(Total_Cases/Population)*100</b></div> <br>
+					This shows how widespread COVID-19 was in different parts of the world.</p>
+					<h4>Countries with the Highest Infection & Death Rates</h4>
+					<ul>
+						<li><b>Most Infected Countries: </b> We find the countries with the highest infection rates by
+							comparing total cases to population. </li>
+						<li><b>Deadliest Countries:</b> We identify countries where COVID-19 had the highest death
+							rates. </li>
+					</ul>
+					<h4>Countries That Lost the Most Lives</h4>
+					<P> We determine which countries had the highest total deaths due to COVID-19.</P>
+					<h4>Continent-Wise Analysis</h4>
+					<P>Instead of looking at individual countries, we analyze which continent had the most cases and
+						deaths.</P>
+					<h4>Global Summary</h4>
+					<P>
+						We calculate total cases and deaths worldwide and determine the global death rate.</P>
+					<h4>Vaccination Analysis</h4>
+					We track the progress of COVID-19 vaccinations using three different SQL techniques:
+
+					<UL>
+					<LI><B> Basic Query –</B> Directly calculates vaccinated people. </li>
+						<LI><B> Common Table Expression (CTE) – </B>Makes the query more readable.</li>
+							<LI><B> Temporary Table – </B>Stores vaccination data for detailed analysis.</li></UL>
+
+					This helps us see which regions vaccinated the most people over time.
+
+
+					<hr />
+					<h3>🎯 Conclusion</h3>
+					<p>This SQL project provides valuable insights into COVID-19 infections, death rates, and vaccination trends across the world. By analyzing real-world data, we can:
+<ul>
+<li> Understand how COVID-19 affected different countries and continents</li>
+<li>Identify high-risk regions based on infection and death rates</li>
+<li>Track vaccination progress globally</li></ul>
+
+This project showcases the power of SQL in data analysis and helps us make data-driven decisions about public health.</p>
+
+<a href="https://github.com/Tarunkr2332/portfolio/blob/main/covid%20portfolio.sql"> Want to see the full code? Check it out here! </a>
+				</div>
+			</section>
+		</article>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<ul class="icons">
+				<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+				<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+				<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+				<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+				<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+			</ul>
+			<!-- <ul class="copyright">
+				<li>&copy; Untitled</li>
+				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul> -->
+		</footer>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
