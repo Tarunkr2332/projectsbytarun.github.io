@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Data Analist projects</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="is-preload">
+
+	<!-- Page Wrapper -->
+	<div id="page-wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<h1><a href="index.html">Data Analist projects</a></h1>
+			<nav id="nav">
+				<ul>
+					<li class="special">
+						<a href="#menu" class="menuToggle"><span>Menu</span></a>
+						<div id="menu">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<!-- <li><a href="generic.html">Generic</a></li>
+								<li><a href="elements.html">Elements</a></li>
+								<li><a href="#">Sign Up</a></li>
+								<li><a href="#">Log In</a></li> -->
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- Main -->
+		<article id="main_bi">
+			<header>
+				<h2>covid-19 Data exploration project</h2>
+				<p>Used sql to explore data about covid-19 </p>
+			</header>
+			<section class="wrapper style5">
+				<div class="inner">
+
+					<h2>📌 Project Overview</h2>
+					<p>This project visulize COVID-19 data using power bi, helping us understand infection trends, death
+						rates and covid wave . The data comes from two tables:</p>
+
+					<ul>
+						<li> <b>country data –</b> Contains information on cases , deaths  and population for each
+							country.</li>
+						<li><b>continent data –</b> Contains information on cases , deaths and population for each
+							Continent.</li>
+					</ul>
+					
+					<hr />
+
+					<h3>🔎 Key observation from the Data</h3>
+					<h4>modifying the Dataset</h4>
+					<p>We begin by creating  essential column which can help us visulize better (used sql for it):
+
+					<ol>
+						<li>total case </li>
+						<li>total death</li>
+						<li>survival_rate</li>
+						<li>death_rate</li>
+						
+					</ol>
+
+					This helps us compare COVID-19 trends across different regions.</p>
+
+					<h4>slicer </h4>
+					<p>We created 3 slicer to so we can observe data as we want <br>
+						<ul>
+							<li>country </li>
+							<li>continent</li>
+							<li>date</li>
+						</ul>
+					<h4>card </h4>
+					<p>We created 4 cards to show 4 importent value  <br>
+						<ul>
+							<li>total population</li>
+							<li> total cases</li>
+							<li>total death</li>
+							<li>death %</li>
+						</ul>
+						<h4> recorded case in continent (bar chart )</h4>
+					<p>we visulized total Infection in every continent  using  bar chart </p>
+					<h4>recorded case in country (bar chart )</h4>
+					<p>we visulized top 5 country with highest case count</p>
+					<h4>Recovery percent (donut chart )</h4>
+					<P> We we visulize recovery vs death  percent ( showing likely hood of dying due to covid)</P>
+					<h4> case count (line chart )</h4>
+					<P>we visulize new case count with respect to date for every country (top 5 in chart) showing us all covid wave </P>
+					<h4>Global Summary (shape map) </h4>
+					<P>
+						we created a globe as center which is showing  infection rate in every country </P>
+					
+					<hr />
+					<h3>🎯 Conclusion</h3>
+					<p>This power  project provides valuable insights into COVID-19 infections, death rates, and vaccination trends across the world. By visulizing  real-world data, we can:
+<ul>
+<li> observed how COVID-19 affected different countries and continents</li>
+<li>Identify high-risk regions based on infection rates</li>
+<li>Track covid waves globally</li></ul>
+
+This project showcases the power of visulization toll (power bi in this case) in data analysis and helps us understand data more easily .</p>
+<iframe title="cov_19" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=b2be6ad3-adbe-41f4-a1fd-3dc9b46008fe&autoAuth=true&ctid=a51ea689-b342-44df-b2c2-0f27b4dc726d" frameborder="0" allowFullScreen="true"></iframe><br>
+<a href="https://app.powerbi.com/reportEmbed?reportId=b2be6ad3-adbe-41f4-a1fd-3dc9b46008fe&autoAuth=true&ctid=a51ea689-b342-44df-b2c2-0f27b4dc726d"> Want to see the project yourself ? Check it out here! </a>
+				</div>
+			</section>
+		</article>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<ul class="icons">
+				<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+				<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+				<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+				<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+				<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+			</ul>
+			<!-- <ul class="copyright">
+				<li>&copy; Untitled</li>
+				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul> -->
+		</footer>
+
+	</div>
+
+	<!-- Scripts -->
+	
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
